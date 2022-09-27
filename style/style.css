@@ -1,0 +1,96 @@
+/*landing page */
+body {
+  font-family: "Itim";
+  background-color: #0f0e17;
+}
+.nav-bar {
+  background-color: #d9d9d9;
+}
+.content {
+  background-color: #0f0e17;
+}
+.title {
+  background-color: #fffffe;
+}
+.about {
+  background-color: #a7a9be;
+}
+.locator {
+  background-color: #f25f4c;
+}
+.ads {
+  background-color: #ff8906;
+}
+.footer {
+  background-color: #d9d9d9;
+}
+.copyRight {
+  background-color: #ffcbcb;
+}
+/*informative page */
+.summary {
+  background-color: #a7a9be;
+}
+.statistic {
+  background-color: #f25f4c;
+}
+.reg-form {
+  background-color: #e53170;
+}
+
+/* NAVIGATION BAR DESIGN */
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 20px;
+  background-color: #d9d9d9;
+}
+
+/* logo design */
+
+
+.logo img {
+  width: 120px;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+
+.org-name {
+  color: rgb(2, 105, 2);
+  font-weight:900;
+  font-size: 2.8rem;
+  text-shadow: 1px 1px 1px rgb(186, 123, 6);
+}
+
+/* Nav list */
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size:larger;
+  font-weight:900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c96e07;
+  text-shadow: 1px 1px 1px rgb(3, 122, 11);
+}
+
+.nav-list li a:hover {
+  color: blue;
+}
