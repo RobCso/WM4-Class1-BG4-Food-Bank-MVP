@@ -94,3 +94,76 @@ header {
 .nav-list li a:hover {
   color: blue;
 }
+
+/* registration form */
+
+.radio-fieldset {
+  border: groove;
+  border-radius:3px;
+  border-color: #d9d9d9;
+  display:flex;
+}
+
+.button-foodbank {
+  border: none;
+    background-color: rgb(2, 105, 2);
+    padding: 10px 15px;
+    color: white;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.reg-form {  
+    align-items: center;
+    justify-content: center;
+}
+
+.foodbank-head {
+  color: black;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.foodbank-form {
+  display: flex;
+    flex-direction: column;
+  
+    padding: 0px 150px;
+}
+
+.select-form,
+.first-name
+.last-name
+.address1
+.address2
+.city-pcode
+.city
+.email
+.phone {
+    width: 150px;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #666666;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.foodbank-textfield {
+  padding:1rem;
+}
+
+#single,
+#couple,
+#children {
+  display: inline-block;
+  width:10%;
+  padding: 2rem;
+}
