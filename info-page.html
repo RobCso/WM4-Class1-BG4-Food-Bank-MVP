@@ -1,159 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/style/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Itim"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <section class="logo">
-        <img src="./images/TopRankFoodBank_Logo.jpg" alt="logo" />
-      </section>
-      <section class="org-name">TopRank Food Bank</section>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">find your food bank</a></li>
-          <li><a href="">get in touch</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="content">
-      <h1 class="title">Title</h1>
-      <p class="summary">Summary</p>
-      <h3 class="statistic">Statistics</h3>
-      <div class="reg-form">
-        <p class="foodbank-head">
-          Please register your details and we'll do our best to get back to you
-          as soon as possible.
-        </p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="/style/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Itim"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<section class="logo">
+				<img src="./images/TopRankFoodBank_Logo.jpg" alt="logo" />
+			</section>
+			<section class="org-name">TopRank Food Bank</section>
+			<nav>
+				<ul class="nav-list">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">find your food bank</a></li>
+					<li><a href="">get in touch</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="content">
+			<h1 class="title">Title</h1>
+			<section class="summary">
+				<h4>The Current State of Foodbanks in the UK.</h4>
+				
+				<p>
+					There are over 1,400 Trussell Trust food banks in the UK, in addition
+					to at least 1,172 independent food banks. The trust also suggests that
+					immediately before the Covid epidemic the percentage of UK households
+					using foodbanks was around 2.5%. This number is highly likely to
+					increase over the coming months given the cost of living crisis
+					expected to become greater as the winter comes closer and household
+					bills begin to increase. This increases the business case for a
+					company looking to understand the root causes and address the needs
+					associated.
+				</p>
+				<h4>The State of Foodbanks Locally.</h4>
+				
+				<p>
+					Food banks in Birmingham have given out 53,319 parcels to adults and
+					children in the last year. For every 100,000 people in the city, a
+					total of 4,500 have received help to feed themselves from 1 April 2021
+					to 31 March 2022. Birmingham foodbanks are reporting a 40% increase in
+					visitors over the summer, and this is again likely to rise given the
+					ongoing energy bills increases. Birmingham has an unemployment rate
+					twice that of the national average and child poverty rates are also
+					much higher that the national average, meaning that increases in food
+					bank use are likely to be exponetial to national trends.
+				</p>
+			</section>
+			<img class="statistic" src="/images/MVP STATS.png" alt="Trussell Trust food bank statistics">
+			<div class="reg-form">
+				<p class="foodbank-head">
+					Please register your details and we'll do our best to get back to you
+					as soon as possible.
+				</p>
 
-        <form action="#" method="get" target="_blank" class="foodbank-form">
-          <div class="foodbank-form-under">
-            <div class="select-form">
-              <label for="enquiry">Plese select your enquiry type *</label
-              ><br />
-              <select
-                id="enquiry"
-                name="enquiry"
-                required
-                placeholder="Select your enquiry..."
-                type="text"
-              >
-                <option value="-1">Select your enquiry...</option>
-                <option value="emergency-enquiry">
-                  Emergency help required
-                </option>
-                <option value="general-enquiry">General enquiry</option>
-                <option value="Donations-enquiry">I want to donate</option>
-                <option value="Volunteer-enquiry">I want to volunteer</option>
-              </select>
-            </div>
+				<form action="#" method="get" target="_blank" class="foodbank-form">
+					<div class="foodbank-form-under">
+						<div class="select-form">
+							<label for="enquiry">Plese select your enquiry type *</label
+							><br />
+							<select
+								id="enquiry"
+								name="enquiry"
+								required
+								placeholder="Select your enquiry..."
+								type="text"
+							>
+								<option value="-1">Select your enquiry...</option>
+								<option value="emergency-enquiry">
+									Emergency help required
+								</option>
+								<option value="general-enquiry">General enquiry</option>
+								<option value="Donations-enquiry">I want to donate</option>
+								<option value="Volunteer-enquiry">I want to volunteer</option>
+							</select>
+						</div>
 
-            <div class="first-last">
-              <div class="first-name">
-                <label for="firstname">First name *</label>
-                <input id="firstname" type="text" required />
-              </div>
-              <div class="last-name">
-                <label for="lastname">Last name *</label>
-                <input id="lastname" type="text" required />
-              </div>
-            </div>
-            <div class="address1">
-              <label for="address1">Address *</label>
-              <input id="address1" type="text" required />
-            </div>
-            <div class="address2">
-              <label for="address2">Address 2</label>
-              <input id="address2" type="text" />
-            </div>
-            <div class="city-pcode">
-              <label for="postcode">Postcode *</label>
-              <input id="postcode" type="text" required />
-            </div>
-            <div class="city">
-              <label for="city">City *</label>
-              <input id="city" type="text" required />
-            </div>
-            <div class="email">
-              <label for="email">Email *</label>
-              <input id="email" type="email" required />
-            </div>
-            <div class="phone">
-              <label for="phone">Phone number *</label>
-              <input id="phone" type="tel" required />
-            </div>
+						<div class="first-last">
+							<div class="first-name">
+								<label for="firstname">First name *</label>
+								<input id="firstname" type="text" required />
+							</div>
+							<div class="last-name">
+								<label for="lastname">Last name *</label>
+								<input id="lastname" type="text" required />
+							</div>
+						</div>
+						<div class="address1">
+							<label for="address1">Address *</label>
+							<input id="address1" type="text" required />
+						</div>
+						<div class="address2">
+							<label for="address2">Address 2</label>
+							<input id="address2" type="text" />
+						</div>
+						<div class="city-pcode">
+							<label for="postcode">Postcode *</label>
+							<input id="postcode" type="text" required />
+						</div>
+						<div class="city">
+							<label for="city">City *</label>
+							<input id="city" type="text" required />
+						</div>
+						<div class="email">
+							<label for="email">Email *</label>
+							<input id="email" type="email" required />
+						</div>
+						<div class="phone">
+							<label for="phone">Phone number *</label>
+							<input id="phone" type="tel" required />
+						</div>
 
-            <div class="radio">
-              <fieldset class="radio-fieldset">
-                <legend>Select your status</legend>
-                <input id="single" type="radio" name="status" value="single" />
-                <label for="single">I am a single person</label>
-                <input id="couple" type="radio" name="status" value="couple" />
-                <label for="couple">I am a couple</label>
-                <input
-                  id="children"
-                  type="radio"
-                  name="status"
-                  value="children"
-                />
-                <label for="children">I live with children</label>
-              </fieldset>
-            </div>
-          </div>
-          <div class="foodbank-textfield">
-            <label for="description"
-              >Please provide your information here</label
-            >
-            <textarea
-              name="foodbank-textfield"
-              id=""
-              cols="60"
-              rows="10"
-            ></textarea>
-          </div>
-          <div class="checkbox">
-            <input
-              id="agreement"
-              type="checkbox"
-              name="agreement"
-              required
-              class="checkbox-input"
-            />
-            <label for="agreement"
-              >By confirming this form you agree to the
-              <a href="#" class="terms-cond">Terms and Conditions.</a> *</label
-            >
+						<div class="radio">
+							<fieldset class="radio-fieldset">
+								<legend>Select your status</legend>
+								<input id="single" type="radio" name="status" value="single" />
+								<label for="single">I am a single person</label>
+								<input id="couple" type="radio" name="status" value="couple" />
+								<label for="couple">I am a couple</label>
+								<input
+									id="children"
+									type="radio"
+									name="status"
+									value="children"
+								/>
+								<label for="children">I live with children</label>
+							</fieldset>
+						</div>
+					</div>
+					<div class="foodbank-textfield">
+						<label for="description"
+							>Please provide your information here</label
+						>
+						<textarea
+							name="foodbank-textfield"
+							id=""
+							cols="60"
+							rows="10"
+						></textarea>
+					</div>
+					<div class="checkbox">
+						<input
+							id="agreement"
+							type="checkbox"
+							name="agreement"
+							required
+							class="checkbox-input"
+						/>
+						<label for="agreement"
+							>By confirming this form you agree to the
+							<a href="#" class="terms-cond">Terms and Conditions.</a> *</label
+						>
 
-            <div>
-              <button class="button-foodbank">Confirm</button>
-            </div>
-          </div>
-        </form>
-      </div>
-      <aside class="ads">Tailored Ads</aside>
-    </main>
-  </body>
-  <footer>
-    <div class="footer">
-      <p class="join">join us on</p>
-    <div class="social">
-      <button class="social-button"><img class="twitter" src="images/twitter icon.png" alt="twitter-icon"></button>
-      <button class="social-button"><img class="facebook" src="images/facebook icon.png" alt="facebook-icon"></button>
-      <button class="social-button"><img class="instagram" src="/images/instagram icon.png" alt="instagram-icon"></button>
-    </div>
-    </div>
-    <div class="copyRight">
-      <p>©TopRankFoodBank™</p>
-    </div>
-  </footer>
+						<div>
+							<button class="button-foodbank">Confirm</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<aside class="ads">Tailored Ads</aside>
+		</main>
+	</body>
+	<footer>
+		<div class="footer">
+			<p class="join">join us on</p>
+			<div class="social">
+				<button class="social-button">
+					<img
+						class="twitter"
+						src="images/twitter icon.png"
+						alt="twitter-icon"
+					/>
+				</button>
+				<button class="social-button">
+					<img
+						class="facebook"
+						src="images/facebook icon.png"
+						alt="facebook-icon"
+					/>
+				</button>
+				<button class="social-button">
+					<img
+						class="instagram"
+						src="/images/instagram icon.png"
+						alt="instagram-icon"
+					/>
+				</button>
+			</div>
+		</div>
+		<div class="copyRight">
+			<p>©TopRankFoodBank™</p>
+		</div>
+	</footer>
 </html>

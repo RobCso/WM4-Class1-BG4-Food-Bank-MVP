@@ -9,9 +9,13 @@ body {
 }
 .content {
   background-color: #0f0e17;
+  width: 60%;
+  margin: auto;
+  
 }
 .title {
   background-color: #fffffe;
+  text-align: center;
 }
 .about {
   background-color: #a7a9be;
@@ -33,10 +37,14 @@ body {
   background-color: #a7a9be;
 }
 .statistic {
+  display: block;
   background-color: #f25f4c;
+  width: 60%;
+  margin: auto;
 }
 .reg-form {
   background-color: #e53170;
+  
 }
 
 /* NAVIGATION BAR DESIGN */
@@ -143,9 +151,20 @@ header {
 .email
 .phone {
     width: 150px;
-      padding: 0;
+      padding: 1.25em;
       margin: 0;
       box-sizing: border-box;
+      
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1.25rem;
 }
 /*Footer*/
 .join {
