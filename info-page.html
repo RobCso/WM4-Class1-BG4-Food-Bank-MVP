@@ -1,171 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>TopRank Food Bank</title>
-		<link rel="stylesheet" href="./style/style.css" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Itim"
-			rel="stylesheet"
-		/>
-	</head>
-	<body>
-		<header>
-			<section class="logo">
-				<img src="./images/TopRankFoodBank_Logo.jpg" alt="logo" />
-				<h2 class="org-name">TopRank Food Bank</h2>
-			</section>
-			<nav>
-				<ul class="nav-list">
-					<li><a href="/index.html">Home</a></li>
-					<li><a href="/info-page.html">About</a></li>
-					<li><a href="">find your food bank</a></li>
-					<li><a href="">contact us</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main class="content">
-			<section class="container">
-				<section class="title">Title</section>
-        <section class="summary-stat">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Itim"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="logo">
+        <img src="./images/TopRankFoodBank_Logo.jpg" alt="logo" />
+      </section>
+      <section class="org-name">TopRank Food Bank</section>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">find your food bank</a></li>
+          <li><a href="">get in touch</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <h1 class="title">Title</h1>
+      <p class="summary">Summary</p>
+      <h3 class="statistic">Statistics</h3>
+      <div class="reg-form">
+        <p class="foodbank-head">
+          Please register your details and we'll do our best to get back to you
+          as soon as possible.
+        </p>
 
-          <section class="summary">Summary</section>
-          <section class="statistic">Statistics</section>
-        </section>
-				<div class="reg-form"> 
-					<p class="foodbank-head">
-						Please register your details and we'll do our best to get back to
-						you as soon as possible.
-					</p>
+        <form action="#" method="get" target="_blank" class="foodbank-form">
+          <div class="foodbank-form-under">
+            <div class="select-form">
+              <label for="enquiry">Plese select your enquiry type *</label
+              ><br />
+              <select
+                id="enquiry"
+                name="enquiry"
+                required
+                placeholder="Select your enquiry..."
+                type="text"
+              >
+                <option value="-1">Select your enquiry...</option>
+                <option value="emergency-enquiry">
+                  Emergency help required
+                </option>
+                <option value="general-enquiry">General enquiry</option>
+                <option value="Donations-enquiry">I want to donate</option>
+                <option value="Volunteer-enquiry">I want to volunteer</option>
+              </select>
+            </div>
 
-					<form action="#" method="get" target="_blank" class="foodbank-form">
-						<div class="foodbank-form-under">
-							<div class="select-form">
-								<label for="enquiry">Plese select your enquiry type *</label
-								><br />
-								<select
-									id="enquiry"
-									name="enquiry"
-									required
-									placeholder="Select your enquiry..."
-									type="text"
-								>
-									<option value="-1">Select your enquiry...</option>
-									<option value="emergency-enquiry">
-										Emergency help required
-									</option>
-									<option value="general-enquiry">General enquiry</option>
-									<option value="Donations-enquiry">I want to donate</option>
-									<option value="Volunteer-enquiry">I want to volunteer</option>
-								</select>
-							</div>
+            <div class="first-last">
+              <div class="first-name">
+                <label for="firstname">First name *</label>
+                <input id="firstname" type="text" required />
+              </div>
+              <div class="last-name">
+                <label for="lastname">Last name *</label>
+                <input id="lastname" type="text" required />
+              </div>
+            </div>
+            <div class="address1">
+              <label for="address1">Address *</label>
+              <input id="address1" type="text" required />
+            </div>
+            <div class="address2">
+              <label for="address2">Address 2</label>
+              <input id="address2" type="text" />
+            </div>
+            <div class="city-pcode">
+              <label for="postcode">Postcode *</label>
+              <input id="postcode" type="text" required />
+            </div>
+            <div class="city">
+              <label for="city">City *</label>
+              <input id="city" type="text" required />
+            </div>
+            <div class="email">
+              <label for="email">Email *</label>
+              <input id="email" type="email" required />
+            </div>
+            <div class="phone">
+              <label for="phone">Phone number *</label>
+              <input id="phone" type="tel" required />
+            </div>
 
-							<div class="first-last">
-								<div class="first-name">
-									<label for="firstname">First name *</label>
-									<input id="firstname" type="text" required />
-								</div>
-								<div class="last-name">
-									<label for="lastname">Last name *</label>
-									<input id="lastname" type="text" required />
-								</div>
-							</div>
-							<div class="address1">
-								<label for="address1">Address *</label>
-								<input id="address1" type="text" required />
-							</div>
-							<div class="address2">
-								<label for="address2">Address 2</label>
-								<input id="address2" type="text" />
-							</div>
-							<div class="city-pcode">
-								<label for="postcode">Postcode *</label>
-								<input id="postcode" type="text" required />
-							</div>
-							<div class="city">
-								<label for="city">City *</label>
-								<input id="city" type="text" required />
-							</div>
-							<div class="email">
-								<label for="email">Email *</label>
-								<input id="email" type="email" required />
-							</div>
-							<div class="phone">
-								<label for="phone">Phone number *</label>
-								<input id="phone" type="tel" required />
-							</div>
+            <div class="radio">
+              <fieldset class="radio-fieldset">
+                <legend>Select your status</legend>
+                <input id="single" type="radio" name="status" value="single" />
+                <label for="single">I am a single person</label>
+                <input id="couple" type="radio" name="status" value="couple" />
+                <label for="couple">I am a couple</label>
+                <input
+                  id="children"
+                  type="radio"
+                  name="status"
+                  value="children"
+                />
+                <label for="children">I live with children</label>
+              </fieldset>
+            </div>
+          </div>
+          <div class="foodbank-textfield">
+            <label for="description"
+              >Please provide your information here</label
+            >
+            <textarea
+              name="foodbank-textfield"
+              id=""
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="checkbox">
+            <input
+              id="agreement"
+              type="checkbox"
+              name="agreement"
+              required
+              class="checkbox-input"
+            />
+            <label for="agreement"
+              >By confirming this form you agree to the
+              <a href="#" class="terms-cond">Terms and Conditions.</a> *</label
+            >
 
-							<div class="radio">
-								<fieldset class="radio-fieldset">
-									<legend>Select your status</legend>
-									<input
-										id="single"
-										type="radio"
-										name="status"
-										value="single"
-									/>
-									<label for="single">I am a single person</label>
-									<input
-										id="couple"
-										type="radio"
-										name="status"
-										value="couple"
-									/>
-									<label for="couple">I am a couple</label>
-									<input
-										id="children"
-										type="radio"
-										name="status"
-										value="children"
-									/>
-									<label for="children">I live with children</label>
-								</fieldset>
-							</div>
-						</div>
-						<div class="foodbank-textfield">
-							<label for="description"
-								>Please provide your information here</label
-							>
-							<textarea
-								name="foodbank-textfield"
-								id=""
-								cols="60"
-								rows="10"
-							></textarea>
-						</div>
-						<div class="checkbox">
-							<input
-								id="agreement"
-								type="checkbox"
-								name="agreement"
-								required
-								class="checkbox-input"
-							/>
-							<label for="agreement"
-								>By confirming this form you agree to the
-								<a href="#" class="terms-cond">Terms and Conditions.</a>
-								*</label
-							>
-
-							<div>
-								<button class="button-foodbank">Confirm</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</section>
-			<aside class="ads">Tailored Ads</aside>
-		</main>
-		<footer>
-			<div class="footer">
-				<p>footer</p>
-				<!--we could add social media accounts and hyperlinks-->
-			</div>
-			<div class="copyRight">
-				<p>©TopRankFoodBank™</p>
-			</div>
-		</footer>
-	</body>
+            <div>
+              <button class="button-foodbank">Confirm</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <aside class="ads">Tailored Ads</aside>
+    </main>
+  </body>
+  <footer>
+    <div class="footer">
+      <p>footer</p>
+      <!--we could add social media accounts and hyperlinks-->
+    </div>
+    <div class="copyRight">
+      <p>©TopRankFoodBank™</p>
+    </div>
+  </footer>
 </html>

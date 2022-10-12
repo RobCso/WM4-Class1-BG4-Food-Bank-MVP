@@ -1,212 +1,169 @@
 /*landing page */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 body {
-	font-family: "Itim";
-	background-color: #0f0e17;
+  font-family: "Itim";
+  background-color: #0f0e17;
 }
-/* .nav-bar {
-	background-color: #d9d9d9;
-} */
+.nav-bar {
+  background-color: #d9d9d9;
+}
 .content {
-	background-color: #0f0e17;
+  background-color: #0f0e17;
 }
 .title {
-	background-color: #fffffe;
+  background-color: #fffffe;
 }
 .about {
-	background-color: #a7a9be;
+  background-color: #a7a9be;
 }
 .locator {
-	background-color: #f25f4c;
+  background-color: #f25f4c;
 }
 .ads {
-	background-color: #ff8906;
+  background-color: #ff8906;
 }
 .footer {
-	background-color: #d9d9d9;
+  background-color: #d9d9d9;
 }
 .copyRight {
-	background-color: #ffcbcb;
+  background-color: #ffcbcb;
 }
 /*informative page */
 .summary {
-	background-color: #a7a9be;
+  background-color: #a7a9be;
 }
 .statistic {
-	background-color: #f25f4c;
+  background-color: #f25f4c;
 }
 .reg-form {
-	background-color: #e53170;
+  background-color: #e53170;
 }
 
 /* NAVIGATION BAR DESIGN */
 header {
-	display: flex;
-	width: 100%;
-	height: 100px;
-	justify-content: space-between;
-	align-items: center;
-	gap: 2rem;
-	margin-bottom: 15px;
-	background-color: #d9d9d9;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 20px;
+  background-color: #d9d9d9;
 }
 
 /* logo design */
-.logo {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 1rem;
-	margin-left: 15px;
-}
+
 
 .logo img {
-	width: 120px;
-	border-radius: 5px;
+  width: 120px;
+  border-radius: 10px;
+  padding-left: 1rem;
 }
 
 .org-name {
-	color: rgb(2, 105, 2);
-	font-weight: 900;
-	font-size: 2.5rem;
-	text-shadow: 1px 1px 1px rgb(47, 46, 45);
+  color: rgb(2, 105, 2);
+  font-weight:900;
+  font-size: 2.8rem;
+  text-shadow: 1px 1px 1px rgb(186, 123, 6);
 }
 
 /* Nav list */
 
 .nav-list {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	gap: 2rem;
-	margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  padding-right: 2rem;
 }
 
 .nav-list li {
-	list-style: none;
+  list-style: none;
 }
 
 .nav-list li a {
-	text-decoration: none;
-	text-transform: capitalize;
-	font-size: larger;
-	font-weight: 900;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #c96e07;
-	text-shadow: 1px 1px 1px rgb(87, 101, 87);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size:larger;
+  font-weight:900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c96e07;
+  text-shadow: 1px 1px 1px rgb(3, 122, 11);
 }
 
 .nav-list li a:hover {
-	color: blue;
+  color: blue;
 }
 
 /* registration form */
 
 .radio-fieldset {
-	border: groove;
-	border-radius: 3px;
-	border-color: #d9d9d9;
-	display: flex;
+  border: groove;
+  border-radius:3px;
+  border-color: #d9d9d9;
+  display:flex;
 }
 
 .button-foodbank {
-	border: none;
-	background-color: rgb(2, 105, 2);
-	padding: 10px 15px;
-	color: white;
-	margin: 20px 0;
-	border-radius: 4px;
+  border: none;
+    background-color: rgb(2, 105, 2);
+    padding: 10px 15px;
+    color: white;
+    margin: 20px 0;
+    border-radius: 4px;
 }
 
-.reg-form {
-	align-items: center;
-	justify-content: center;
+.reg-form {  
+    align-items: center;
+    justify-content: center;
 }
 
 .foodbank-head {
-	color: black;
-	text-align: center;
-	font-size: 1.1rem;
-	padding: 0.5rem;
+  color: black;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.5rem;
 }
 
 .foodbank-form {
-	display: flex;
-	flex-direction: column;
-
-	padding: 0px 150px;
+  display: flex;
+    flex-direction: column;
+  
+    padding: 0px 150px;
 }
 
 .select-form,
-.first-name .last-name .address1 .address2 .city-pcode .city .email .phone {
-	width: 150px;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+.first-name
+.last-name
+.address1
+.address2
+.city-pcode
+.city
+.email
+.phone {
+    width: 150px;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
 }
 
 input {
-	display: inline-block;
-	width: 100%;
-	box-sizing: border-box;
-	border: 2px solid #666666;
-	border-radius: 4px;
-	margin: 8px 0;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #666666;
+  border-radius: 4px;
+  margin: 8px 0;
 }
 
 .foodbank-textfield {
-	padding: 1rem;
+  padding:1rem;
 }
 
 #single,
 #couple,
 #children {
-	display: inline-block;
-	width: 10%;
-	padding: 2rem;
-}
-
-/* main styling */
-
-.content {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 10rem;
-	margin: auto;
-	margin-bottom: 15px;
-}
-.container {
-	width: 70%;
-}
-.ads {
-	order: -1;
-	width: 15%;
-	height: auto;
-	margin-left: 15px;
-	text-align: center;
-}
-
-.about {
-  margin: 15px 0;
-}
-
-.summary-stat {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-  gap: 1rem;
-}
-
-.summary {
-	width: 50%;
-  margin: 15px 0;
-}
-
-.statistic {
-	width: 50%;
+  display: inline-block;
+  width:10%;
+  padding: 2rem;
 }
